@@ -1,0 +1,8 @@
+Flask
+Jinja2
+MarkupSafe
+click
+itsdangerous
+Werkzeug
+Bootstrap-Flask  # For Bootstrap integration in Flask templates
+gTTS  # For generating speech on the fly (Google Text-to-Speech)
