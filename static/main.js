@@ -82,6 +82,9 @@ function loadChapter(book, chapter) {
         return;
     }
 
+    // Update URL to match the current book and chapter
+    window.history.pushState({}, '', `/?book=${book}&chapter=${chapter}`);
+
     fetch(`/api/${book}/${chapter}`)
         .then(response => response.json())
         .then(data => {
