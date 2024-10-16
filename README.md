@@ -1,6 +1,4 @@
 
-Here’s the updated GitHub README content for your project, including the information about generating audio files or converting them on the fly using text-to-speech:
-
 Bible Audio Player
 This project is a Bible Audio Player designed to play Bible verses chapter by chapter, book by book, continuously until the entire Bible is played. It allows you to search for specific chapters or verses and automatically continues to the next chapter and book when one finishes.
 
